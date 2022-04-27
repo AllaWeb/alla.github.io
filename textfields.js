@@ -17,7 +17,7 @@ ec.order.extraFields.flat = {
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
-    'checkoutDisplaySection': 'shipping_address'
+    'checkoutDisplaySection': 'shipping_address',
 };
 
 ec.order.extraFields.street = {
@@ -26,7 +26,7 @@ ec.order.extraFields.street = {
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
-    'checkoutDisplaySection': 'shipping_address'
+    'checkoutDisplaySection': 'shipping_address',
 };
 
 ec.order.extraFields.block = {
@@ -35,7 +35,7 @@ ec.order.extraFields.block = {
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
-    'checkoutDisplaySection': 'shipping_address'
+    'checkoutDisplaySection': 'shipping_address',
 };
 
 ec.order.extraFields.fname = {
@@ -44,7 +44,7 @@ ec.order.extraFields.fname = {
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
-    'checkoutDisplaySection': 'shipping_address'
+    'checkoutDisplaySection': 'shipping_address',
 };
 
 ec.order.extraFields.mname = {
@@ -53,7 +53,7 @@ ec.order.extraFields.mname = {
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
-    'checkoutDisplaySection': 'shipping_address'
+    'checkoutDisplaySection': 'shipping_address',
 };
 
 ec.order.extraFields.lname = {
@@ -62,7 +62,7 @@ ec.order.extraFields.lname = {
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
-    'checkoutDisplaySection': 'shipping_address'
+    'checkoutDisplaySection': 'shipping_address',
 };
 
 Ecwid.refreshConfig && Ecwid.refreshConfig();
