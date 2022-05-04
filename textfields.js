@@ -1,16 +1,9 @@
-window.localStorage.setitem (""show_ec_logs","true")
-Ecwid.OnPageLoaded.add(function(page){
-
-if (page.type == 'CHECKOUT_ADDRESS') {
-
 // Initialize extra fields
 ec = ec || {};
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
 
-// Add a new optional text input 'Flat or House n0.?' to shipping address 
-
-form
+// Add a new optional text input 'Flat or House n0.?' to shipping address form
 ec.order.extraFields.flat = {
     'title': 'Flat or House n0.',
     'textPlaceholder': 'Flat or House n0.',
@@ -18,6 +11,7 @@ ec.order.extraFields.flat = {
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
+    'orderDetailsDisplaySection': 'shipping_address'
 };
 
 ec.order.extraFields.street = {
@@ -27,6 +21,7 @@ ec.order.extraFields.street = {
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
+    'orderDetailsDisplaySection': 'shipping_address'
 };
 
 ec.order.extraFields.block = {
@@ -36,6 +31,7 @@ ec.order.extraFields.block = {
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
+    'orderDetailsDisplaySection': 'shipping_address'
 };
 
 ec.order.extraFields.fname = {
@@ -45,6 +41,7 @@ ec.order.extraFields.fname = {
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
+    'orderDetailsDisplaySection': 'shipping_address'
 };
 
 ec.order.extraFields.mname = {
@@ -54,7 +51,20 @@ ec.order.extraFields.mname = {
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
+    'orderDetailsDisplaySection': 'shipping_address'
 };
+
+ec.order.extraFields.lname = {
+    'title': 'Block',
+    'textPlaceholder': 'Last Name',
+    'type': 'text',
+    'tip': 'We will put a label on a box so the recipient knows who it is from',
+    'required': true,
+    'checkoutDisplaySection': 'shipping_address',
+    'orderDetailsDisplaySection': 'shipping_address'
+};
+
+Ecwid.refreshConfig && Ecwid.refreshConfig();
 
 ec.order.extraFields.lname = {
     'title': 'Block',
