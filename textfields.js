@@ -8,17 +8,17 @@ ec.order.extraFields.flat = {
     'title': 'Flat or House n0.',
     'textPlaceholder': 'Flat or House n0.',
     'type': 'text',
-    'tip': 'We will put a label on a box so the recipient knows who it is from',
+    'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
     'orderDetailsDisplaySection': 'shipping_address'
 };
 
 ec.order.extraFields.street = {
-    'title': 'Street?',
+    'title': 'Street',
     'textPlaceholder': 'Street no.',
     'type': 'text',
-    'tip': 'We will put a label on a box so the recipient knows who it is from',
+    'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
     'orderDetailsDisplaySection': 'shipping_address'
@@ -28,37 +28,37 @@ ec.order.extraFields.block = {
     'title': 'Block',
     'textPlaceholder': 'Block no.',
     'type': 'text',
-    'tip': 'We will put a label on a box so the recipient knows who it is from',
+    'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
     'orderDetailsDisplaySection': 'shipping_address'
 };
 
 ec.order.extraFields.fname = {
-    'title': 'Block',
+    'title': 'First Name',
     'textPlaceholder': 'First Name.',
     'type': 'text',
-    'tip': 'We will put a label on a box so the recipient knows who it is from',
+    'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
     'orderDetailsDisplaySection': 'shipping_address'
 };
 
 ec.order.extraFields.mname = {
-    'title': 'Block',
+    'title': 'Middle Name',
     'textPlaceholder': 'Middle Name',
     'type': 'text',
-    'tip': 'We will put a label on a box so the recipient knows who it is from',
+    'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
     'orderDetailsDisplaySection': 'shipping_address'
 };
 
 ec.order.extraFields.lname = {
-    'title': 'Block',
+    'title': 'Last Name',
     'textPlaceholder': 'Last Name',
     'type': 'text',
-    'tip': 'We will put a label on a box so the recipient knows who it is from',
+    'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
     'orderDetailsDisplaySection': 'shipping_address'
@@ -70,7 +70,7 @@ ec.order.extraFields.lname = {
     'title': 'Block',
     'textPlaceholder': 'Last Name',
     'type': 'text',
-    'tip': 'We will put a label on a box so the recipient knows who it is from',
+    'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
 };
