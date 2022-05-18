@@ -11,7 +11,7 @@ ec.order.extraFields.flat = {
     'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
-    'orderDetailsDisplaySection': 'shipping_address'
+    'orderDetailsDisplaySection': 'shipping_info'
 };
 
 ec.order.extraFields.street = {
@@ -21,7 +21,7 @@ ec.order.extraFields.street = {
     'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
-    'orderDetailsDisplaySection': 'shipping_address'
+    'orderDetailsDisplaySection': 'shipping_info'
 };
 
 ec.order.extraFields.block = {
@@ -31,7 +31,7 @@ ec.order.extraFields.block = {
     'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
-    'orderDetailsDisplaySection': 'shipping_address'
+    'orderDetailsDisplaySection': 'shipping_info'
 };
 
 ec.order.extraFields.fname = {
@@ -41,7 +41,7 @@ ec.order.extraFields.fname = {
     'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
-    'orderDetailsDisplaySection': 'shipping_address'
+    'orderDetailsDisplaySection': 'customer_info'
 };
 
 ec.order.extraFields.mname = {
@@ -51,7 +51,7 @@ ec.order.extraFields.mname = {
     'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
-    'orderDetailsDisplaySection': 'shipping_address'
+    'orderDetailsDisplaySection': 'customer_info'
 };
 
 ec.order.extraFields.lname = {
@@ -61,7 +61,7 @@ ec.order.extraFields.lname = {
     'tip': '',
     'required': true,
     'checkoutDisplaySection': 'shipping_address',
-    'orderDetailsDisplaySection': 'shipping_address'
+    'orderDetailsDisplaySection': 'customer_info'
 };
 
 Ecwid.refreshConfig && Ecwid.refreshConfig();
@@ -72,7 +72,7 @@ ec.order.extraFields.lname = {
     'type': 'text',
     'tip': '',
     'required': true,
-    'checkoutDisplaySection': 'shipping_address',
+    'checkoutDisplaySection': 'customer_info',
 };
 
 Ecwid.refreshConfig && Ecwid.refreshConfig();
